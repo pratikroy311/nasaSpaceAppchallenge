@@ -1,0 +1,187 @@
+
+body{
+    background:url("img/back.jpg");
+}
+
+   .div1 img{
+      
+      width: 200px;
+      height: 200px;   
+ 	 margin:200px 0 0 200px;
+ 	 float: left;
+    }
+	.div2 article{
+
+	     width: 500px;
+	     height: 200px;
+	     border: 4px solid white;
+	     border: 2px solid white;
+         padding: 20px;
+	 	 margin:200px 0 0 200px;
+	 	 background: black;
+	 	 color : white;
+	 	 opacity: .7;
+	 	 float: left;
+	 	 box-shadow: 0px 0px 10px white;
+	}
+
+
+
+	.clearfix{
+		clear: both;
+	}
+
+#p1 p2 p3 p4{
+    padding: 30px;
+    margin: 10px;
+}
+
+	/*,,,,,,,,,,,,,,,,,,,,,,,,,*/
+	.div3 button{
+		width: 120px;
+		height: 80px;
+		margin:180px 0 100px 165px;
+		background: transparent;
+		color :white;
+		border:2px solid white;
+		font-size: 20px;
+		float: left;
+		border-radius: 10%;
+		transition: .5s;
+	}
+	.div4 button{
+		width: 120px;
+		height: 80px;
+		margin:180px 0 100px 165px;
+		background: transparent;
+		color :white;
+		border:2px solid white;
+		font-size: 20px;
+		float: left;
+		border-radius: 10%;
+		transition: .5s;
+	}
+	.div5 button{
+		width: 120px;
+		height: 80px;
+		margin:180px 0 100px 165px;
+		background: transparent;
+		border:2px solid white;
+		color :white;
+		font-size: 20px;
+		float: left;
+		border-radius: 10%;
+		transition: .5s;
+	}
+	.div6 button{
+		width: 120px;
+		height: 80px;
+		margin:180px 0 100px 165px;
+		background: transparent;
+		border:2px solid white;
+		color :white;
+		font-size: 20px;
+		float: left;
+		border-radius: 10%;
+		transition: .5s;
+	}
+	button:hover{
+		background: transparent;
+		border:none;
+		border-bottom: 4px solid yellow;
+	}
+	.div7{
+		width: 900px;
+        padding: 20px;
+		height: 330px;
+		border:2px solid white;
+	 	 margin:50px 0 100 200px;
+	 	 background: transparent;
+	 	 color : white;
+	 	 box-shadow: 0px 0px 10px white;
+	}
+	.div7 h2{
+		text-align: center;
+		background: transparent;
+	}
+	.div8{
+		width: 900px;
+		height: 2650px;
+		border:2px solid white;
+        padding: 20px;
+	 	 margin:50px 0 100 200px;
+	 	 background: transparent;
+	 	 color : white;
+	 	 box-shadow: 0px 0px 10px white;
+	}
+	.div8 h2{
+		text-align: center;
+		background: none;
+	}
+	.div9{
+		width: 900px;
+		height: 500px;
+		border:2px solid white;
+	 	 margin:50px 0 100 200px;
+	 	 background: transparent;
+	 	 color : white;
+	 	 box-shadow: 0px 0px 10px white;
+	}
+
+.box1{
+    float: centre;
+    margin: 10px;
+}
+.box1 img{
+    width: 200px;
+      height: 200px;
+      border-radius: 50%;   
+ 	 margin:20px;
+}
+
+#first{
+    margin: 20px;
+    padding: 30px;
+}
+
+#second{
+    margin: 20px;
+    padding: 30px;
+}
+
+#third{
+    margin: 20px;
+    padding: 30px;
+}
+	.div9 h2{
+		text-align: center;
+		background: none;
+	}
+	.div10{
+		width: 840px;
+		height: 450px;
+		border:2px solid white;
+        position:relative;
+        right:220px;;
+        margin:50px 0 100 200px;
+        padding-left: 50px;
+        padding-right: 30px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        background: transparent;
+        color : white;
+        box-shadow: 0px 0px 10px white;
+	}
+	.div10 h2{
+		text-align: center;
+		background: transparent;
+	}
+
+.div2 article{
+    padding: 30px;
+}
+
+iframe{
+    padding: 3px;
+    margin: 5px;
+}

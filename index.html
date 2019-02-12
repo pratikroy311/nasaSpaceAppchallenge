@@ -1,0 +1,226 @@
+<html>
+    <head>
+       <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Track'Em</title>
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+       <link rel="stylesheet" href="jquery-ui.min.css">
+       <script src="jquery-ui.min.js"></script>
+        <link href="https://unpkg.com/ionicons@4.4.6/dist/css/ionicons.min.css" rel="stylesheet"> 
+        <link rel="shortcut icon" href="logo2.JPG" />
+        <script src="js/me.js"></script> 
+        <script>
+  $( function() {
+    $( "#accordion" ).accordion();
+  } );
+  </script>
+    </head>
+    <body>
+    <!-- <div id="preload"></div> -->
+    
+    <header class="head">
+        
+        <nav class="navbar clearfix">
+          
+            <ul>
+                <li><a href="index.html"><span>Home</span></a></li>
+                <li><a onmousedown="autoScrollTo('gov');" href="#" onclick="return false;">Gov Agencies</a></li>
+                <li><a onmousedown="autoScrollTo('pvt');" href="#" onclick="return false;">Pvt Agencies</a></li>
+                <a href="https://www.nasa.gov/mission_pages/station/main/index.html"><li title="International Space Station"><span>I.S.S</span></li></a>
+                <li><a href="story.html" target="_blank"><span>Know More</span></a></li>
+                <li><a href="live.html"><i class="icon ion-md-tv"></i>&nbsp; Live</a></li>
+            </ul>
+        </nav>
+        <div class="center">
+                <img src="img/world-transparent-spinning-4.gif">
+                 <h2>Wanna &nbsp;Go To&nbsp; <span>Space?</span></h2>
+                 <div class="re"></div>
+                  
+            <a id="five"  href="space.html" ><span id="five-span"></span>Explore</a>
+                 <h3 style="margin-top:10px;">Next Launch IN</h3>
+                  <a href="https://blogs.nasa.gov/icon/2018/09/21/nasas-icon-launch-now-targeted-for-oct-26/"><p class="timer"id="demo"></p></a>
+                  <p class="nasaa">BY NASA</p>
+                   </div>
+                   
+            <div class="holder">
+            <h3 style="color:aliceblue;text-align: center;text-transform: uppercase">Upcoming Missions</h3>
+  <ul id="ticker01">
+							<li><span>26/10/2018</span><a href="#">&nbsp;<img src=""><p>ICON Satellite is going to be launched by pegasus-XL</p></a></li>
+            <li><span>29/10/2018</span><a href="#">&nbsp;<img src=""><p>A japanese rocket H-IIA will launch the japan aerospace exploration agency's second green house gas observing satellite IBUKI-2(GOSAT-2)</p></a></li>
+            <li><span>31/10/2018</span><a href="#">&nbsp;<img src=""><p>Roscosmos is expected to launch the Progress MS-10 automated cargo resupply spacecraft to the International Space Station with some 5,400 pounds (2,500 kilograms) of crew supplies and equipment  for the Expedition 57 crew.</p></a></li>
+            <li><span>15/11/2018</span><a href="#">&nbsp;<img src=""><p>Northrup Grumman's Antares 230 rocket will deliver the 10th operational Cygnus resupply spacecraft to the International Space Station</p></a></li>
+            <li><span>27/11/2018</span><a href="#">&nbsp;<img src=""><p>SpaceX will conduct its 16th Dragon cargo flight to the International Space Station in support of NASA's Commercial Resupply Service (CRS) program. The company's Dragon spacecraft will be loaded with crew supplies, and experiments to be used on the orbiting lab.</p></a></li>
+            <li><span>03/12/2018</span><a href="#">&nbsp;<img src=""><p>A ULA Delta IV Heavy rocket will launch the NROL-71 payload for the U.S. National Reconnaissance Office. NROL-71 is most likely a Keyhole KH-11 image reconnaissance satellite.</p></a></li>
+            <li><span>15/12/2018</span><a href="#">&nbsp;<img src=""><p>GPS III SV01 is the first of the U.S. Air Force’s third-generation Global Positioning System (GPS III) navigation satellites.</p></a></li>
+            <li><span>20/12/2018</span><a href="#">&nbsp;<img src=""><p>Soyuz MS-11 will launch three members of Expedition 56 to the International Space Station. The crew consists of Russian cosmonaut Oleg Kononenko, NASA astronaut Anne McClain, and Canadian Space Agency astronaut David Saint-Jacques. They will remain aboard the outpost for about six months.</p></a></li>
+            <li><span>03/01/2019</span><a href="#">&nbsp;<img src=""><p>India's second robotic mission to the Moon will be launched by a GSLV Mk II rocket. The Chandrayaan-2 mission will include an orbiter, lander and rover.</p></a></li>
+				</ul>
+</div>
+    </header>
+    <!--<section class="slide1">
+        <h2>Fun&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Facts</h2>
+        <img src="img/yui.gif">
+        <div class="contain">
+        <div class="fact fact2"><p>Yuri Gagarin was the first human to journey nto outer space on 12th april in 1961 and Neil Armstrong was an american astronaut who was the first person to walk on the moon</p></div>
+        <div class="fact fact3"><p>ONly 12 countries including USSR,Russia,India,Israel,Iran,North Korea,Japan,France,Ukraine,China,UK and USA have independently launched satellites on their own indigenously developed launch vehicles</p></div>
+        <div class="fact fact1"><p>UNOOSA Index shows that there are currently 1980 active satellites in the orbit operating as processing data as we speak</p></div>
+        </div>
+    </section>-->
+    <section id="gov" class="gov">
+        <h2>Government Agencies</h2>
+        <map name="Map" id="Map">
+   <area alt="" title="China" href="CNSA.html" shape="poly" coords="475,195,451,217,478,245,494,245,504,253,527,259,541,236,535,218,544,213,561,193,542,180,527,192,515,210,483,201" />
+     
+    <area alt="" title="India" href="isro.html" shape="poly" coords="456,227,445,255,458,283,475,259,478,247,482,252,491,244" />
+    <area alt="" title="Russia" href="roscosmos.html" shape="poly" coords="459,149,499,113,543,106,558,114,619,147,659,158,691,168,660,187,636,217,625,187,608,190,590,208,603,215,600,233,587,243,588,231,576,219,570,209,562,215,554,229,544,220,535,220,521,216,520,225,503,225,478,215,467,210,453,214,447,204,451,175" />
+    
+    <area alt="" title="Europe" href="ESA.html" shape="poly" coords="323,185,319,150,347,115,376,115,372,147,366,163,385,191,376,199,367,208,352,214,334,206" />
+    
+    <area alt="" title="Japan" href="JAXA.html" shape="poly" coords="585,206,577,203,571,208,571,218,561,227,554,234,568,233" />
+    <area alt="" title="USA" href="nasapage.html" shape="poly" coords="90,195,147,195,162,214,186,195,197,198,173,224,167,251,153,234,141,237,135,249,140,258,116,238,95,234,83,213" />
+    
+</map>
+        <img usemap="#Map"src="img/world_map.jpg">
+    </section>
+    <section id="pvt" class="pvt">
+        <h2>Private Agencies</h2>
+        <div class="op">
+            <div><img src="img/logo-blue-origin-png-blue-origin-logo-985.png">
+            <p>Blue Origin</p></div>
+            <div><img src="img/boeing_logo.png">
+            <p>Boeing</p></div>
+            <div><img src="img/BA_Logo.png">
+            <p>Bigelow Aerospace</p></div></div>
+        <div class="op">
+            <div><img src="img/Orbital-Sciences-Corporation-logo.jpg">
+            <p>Orbital Space</p></div>
+            <div><img src="img/virgin_20097892764_0.png">
+            <p>Virgin Galactic</p></div>
+            <div><img src="img/spacex-logo.png">
+            <p>Space X</p></div>
+            
+        </div>
+    </section>
+    <section class="faq">
+        <h2>General Facts</h2>
+        <div id="accordion">
+  <h3>Factors Determining the launch</h3>
+  <div>
+    <p>
+    <ul><li>
+    Generally satellites and missiles launch from east coast
+  When seen from the North Pole, the Earth rotates anti-clock wise. It means in general term, from west to east as we see the sun rising in the east and setting in the west. </li>
+  <li>The surface velocity of rotation varies from point to point on the Earth. It is about 1600 km per hour or about 460 meters in a second near the equator.</li>
+
+      
+<li>The velocity gradually reduces as we move to the poles and it is practically zero there. A satellite launched from the sites near the equator towards the east direction will get an initial boost equal to the velocity of Earth surface. This is similar to an athlete circling round and round before throwing a discus or a shot put.</li>
+<li>
+The initial boost helps in cutting down the cost of rockets used to launch the satellites. </li>
+<li>This is the major reason for launching satellites in the east ward direction. But this benefit can be taken only for such satellites which are placed in geo-stationary orbit or which circle the Earth parallel to the equator. Such satellites are usually communication satellites or satellites used for scientific research such as ISS.</li>
+<li>There are other satellites which are placed in polar orbits moving across the equator in north south direction and used mainly for mapping or some times for spying. Such satellites are generally launched in south ward or north ward direction and therefore cannot take advantage of the Earth’s rotation.
+</li>
+<li>Despite the costs and risks associated with building, launching and operating satellites, some companies have managed to grow their space technology business. Boeing is one of those companies. Its Defense, Space and Security division managed to deliver 10 satellites in 2012 and acquire orders for seven more, contributing to the business unit's nearly $32 billion in revenue [source: The Boeing Company.
+</li>
+<li>A Satellite is a Projectile. The fundamental principle to be understood concerning satellites is that a satellite is a projectile. That is to say, a satellite is an object upon which the only force is gravity. Once launched into orbit, the only force governing the motion of a satellite is the force of gravity.
+        </li></ul>
+</p>
+  </div>
+  <h3>Scheduling changes in Lauches</h3>
+  <div>
+    <p>
+    <ul>
+        <li>Thunderstorms can be one of the most dangerous types of weather for rocket launches, especially in Florida where thunderstorms pop up nearly every day in the summer.</li>
+        <li>Rockets sitting on the launch pad are safe from lightning due to lightning rods around the pad, but after lift off, they are susceptible to being struck.</li>
+        <li>NASA has eight different launch weather criteria that relate to thunderstorms to ensure that an Atlas V rocket is safe from lightning throughout its entire launching process.</li>
+        <li>This includes making sure that there are no thunderstorms within a 10 nautical-mile radius of the launch pad and that there have not been any lightning strikes within a 10 nautical-mile radius of the launch pad in the 30 minutes prior to scheduled launch time.</li>
+        <li>A lightning strike almost spelled the end to the Apollo 12 mission before it even left the Earth's atmosphere.</li>
+        <li>Even if it is not raining, a thick layer of clouds could be all it takes for an Atlas V launch to be postponed.</li>
+        <li>Flying through a thin layer of clouds is generally harmless to the rocket, but if the cloud layer is greater than 4,500-feet-thick and extends into freezing temperatures, it can create issues that endanger the rocket's safety.</li>
+        <li>In March, a Falcon 9 launch by SpaceX was scrubbed due to high wind shear. CEO Elon Musk said that the high shear "hits like a sledgehammer when [the rocket is] going up supersonic."As I mentioned above, someone on the tech team needs to be able to explain the project details regularly to the “non-tech” executives and other involved parties. It’s vital for someone on the team to have strong visualization and storytelling skills in order to communicate clearly and regularly what’s happening with the project.</li>
+        <li>Lack of user testing, or failure to address feedback.</li>
+        <li>Money plays a big role in every field it can effect the project or ut can boost the project.</li>
+        <li>According to NASA, WFIRST was supposed to do the following: study dark energy, measure the history of cosmic acceleration, complete the exoplanet census and demonstrate technology for direct imaging and characterization of exoplanets.</li>
+        <li>Astronomers said they are saddened by this cut because now the astronomers have to rely on outside research instead of conducting it in the United tates. Megan Donahue, American Astronomical Society president-elect, even said the overall change in the astrophysics budget could cripple U.S. astronomy. 
+But even he holds some mistaken ideas about the agency. Right now, we depend on the Russians for access to the International Space Station, and given Russia’s current volatility (to say the least), Culberson asked Bolden what contingency plans NASA has if Russia decides to pull out.</li>
+ </ul>
+     </p>
+  </div>
+  <h3>What is Payloads?</h3>
+  <div>
+    <p>
+    <ul>
+        <li>Payload is the carrying capacity of an aircraft or launch vehicle, usually measured in terms of weight. Depending on the nature of the flight or mission, the payload of a vehicle may include cargo, passengers, flight crew, munitions, scientific instruments or experiments, or other equipment. Extra fuel, when optionally carried, is also considered part of the payload. In a commercial context (i.e., an airline or air freight carrier), payload may refer only to revenue-generating cargo or paying passengers.</li>
+
+
+
+<li>
+
+
+A hosted payload’s schedule usually takes from start date to launch around 30 months. This launch time is actually an advantage compared to the longer launch date of typical government satellite programs. Hosted Payload’s also allow the government a way to reduce many risks when it comes to program funding, launch delays and operational concerns</li>
+        <li>For a rocket, the payload can be a satellite, space probe, or spacecraft carrying humans, animals, or cargo. For a ballistic missile, the payload is one or more warheads and related systems; the total weight of these systems is referred to as the throw-weight.
+
+</li>
+        <li>The fraction of payload to the total liftoff weight of the air or spacecraft is known as the "payload fraction". When the weight of the payload and fuel are considered together, it is known as the "useful load fraction". In spacecraft, "mass fraction" is normally used, which is the ratio of payload to everything else, including the rocket structure.
+</li>
+        <li>Hosted payloads are used most often by government agencies[who?] seeking to have communications capability in orbit without having to pay the cost of building and launching an entire government-owned satellite.[citation needed] Using a hosted payload on a commercial satellite can reduce both the expense and time required to get communications capacity into space. However, because some government agencies desire to own and control entire satellite platforms, hosted payloads have not been widely accepted by government space planners, despite the fact that a large proportion of government satellite communications is over commercially owned and operated satellites. For example, according to Space Commerce, over 80% of all U.S. government and military satellite communications goes through commercial services.[citation needed] Hosted payloads give government agencies[clarification needed] the ability to own and control a portion of a satellite’s capacity. In 2007, the US Department of Defense projected that satellite demand for the next 10–13 years would increase much more rapidly than the government could build and launch its own satellite systems, making hosted payloads on commercial satellites an attractive alternative.[citation needed]
+</li>
+        <li>Hosted payloads are perfect for a variety of missions. These include Space Situational Awareness (SSA) such as collision avoidance, debris monitoring, nuclear detection and still imagery; and data collection for hyper-spectral sounding, ocean color analysis, ozone mapping, and weather tracking; as well as communications; and research and development.
+</li>
+    </ul>
+    </p>
+  </div>
+  <h3>What are spaceports?</h3>
+  <div>
+    <p>
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    </p>
+  </div>
+</div>
+    </section>
+    
+
+    <script src="js/space.js"></script> 
+    <script>
+       
+// Set the date we're counting down to
+var countDownDate = new Date("Nov 12, 2018 13:30:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+    // Get todays date and time
+    var now = new Date().getTime();
+    
+    // Find the distance between now and the count down date
+    var distance = countDownDate - now;
+    
+    // Time calculations for days, hours, minutes and seconds
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+    // Output the result in an element with id="demo"
+    document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+    + minutes + "m " + seconds + "s ";
+    
+    // If the count down is over, write some text 
+    if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("demo").innerHTML = "EXPIRED";
+    }
+}, 1000);
+</script>
+        
+    </body>
+</html>

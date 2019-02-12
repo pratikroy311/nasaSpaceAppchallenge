@@ -1,0 +1,348 @@
+
+
+body{
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(css/img/background3.jpg) center center no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+.clearfix{
+	clear: both;
+}
+#container{
+	margin: 0 auto;
+	width: 100%;
+	font-family: "sans-serif";
+	font-style: italic;
+	font-weight: 100;
+	/*height: 1000px;*/
+
+}
+
+	main{}
+
+	.main_img{
+		width: 100%;
+		height: 100%;
+	}
+
+	@keyframes anim3{
+			0%{text-shadow: 3px 3px 5px green ;}
+			25%{text-shadow: 3px 3px 10px red  ;}
+			50%{text-shadow: 3px 3px 15px blue ;}
+			75%{text-shadow: 3px 3px 10px red ;}
+			100%{text-shadow: 3px 3px 5px green ;}
+
+		}
+
+
+	.first_section{
+		padding: 0 5%;
+	}
+	.first_section h2{
+		font-weight: 20;
+		text-align: center;
+		font-size: 50px;
+		text-shadow: 1px 2px 2px white , 0 0 0 red;
+		padding: 50px;
+		color:white;
+		transition: font-size .2s , text-shadow 1s;
+	}
+	.first_section h2:hover{
+		font-size: 60px;
+		text-shadow: 0 0 0 white , 1px 2px 2px red;
+		color: white;
+
+	}
+	.footertext h2{
+		font-weight: 20;
+		text-align: center;
+		font-size: 30px;
+		text-shadow: 1px 2px 2px white , 0 0 0 red;
+		padding: 50px;
+		color:white;
+		cursor: pointer;
+		transition: font-size .2s , text-shadow 1s;
+	}
+	.footertext h2:hover{
+		font-size: 40px;
+		text-shadow: 0 0 0 white , 1px 2px 2px red;
+		color: white;
+
+	}
+	.main_img{
+
+	}
+
+	article{
+		width: 23%;
+		margin: 30px 2% 40px 0;
+		float: left;
+		height: 480px;
+		box-shadow: 0px 0px 15px white inset , 0 0 0 yellow;
+		transition: box-shadow 1s;
+
+	}
+
+	article:hover{
+		box-shadow: 0 0 0  white inset, 0 0 15px yellow ;
+
+	}
+	#disfix1{
+		margin-top: 40px;
+	}
+	.left_margin{
+		margin-left: 1%;
+	}
+	.right_margin{
+		margin-right: 0%;
+	}
+	article img{
+		border-top: 2px solid white;
+		width: 100%;
+		height: 170px;
+
+	}
+/*	.art_title{
+		text-align: center;
+		font-size: 20px;
+		margin: 10px;
+		font-weight: bold;
+		margin: 20px;
+	} */
+	.art_des{
+		font-size: 18px;
+		margin:10px;
+        margin-bottom: 20px; 
+		text-align: justify;
+		color: #E0FFFF	;
+		height: auto;
+        
+
+	}
+	footer{
+		width: 100%;
+		height: 200px;
+		background: white;
+	}
+
+	
+
+
+/*88888888888888888888888888888888888888888footer888888*/
+
+$primary-light-blue: #8DB9ED;
+$primary-line-color: #ccc;
+* {
+  box-sizing: border-box
+}
+html, body {
+  height: 100%
+}
+body {
+	font: 11px "Open Sans", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	margin: auto;
+  display: flex;
+  flex-flow: column nowrap;
+  //This justify-content is essentially unnecessary in Firefox and Chrome due to the flex: 1 1 auto on the main.  However, it's needed to push the footer down on IE11
+  justify-content: space-between
+}
+ul {
+  list-style: none
+}
+a {
+  text-decoration: none
+}
+.generic-anchor {
+	color: $primary-light-blue;
+	&:visited {
+		color: $primary-light-blue
+	}
+	&:hover {
+		color: $primary-line-color
+	}
+}
+.flex-rw {
+  display: flex;
+  flex-flow: row wrap;
+}
+//This main is mostly to push the footer to the bottom and for demo purposes.
+main {
+  flex: 1 1 auto; //For IE11
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: 10em "Oswald", sans-serif;
+  color: rgb(155,155,155);
+  line-height: 1
+}
+footer {
+  background: transparent;
+  margin-top: auto;
+  width: 100%
+}
+.footer-list-top {
+  width: 33.333%
+}
+.footer-list-top > li {
+  text-align: center;
+  padding-bottom: 10px
+}
+.footer-list-header {
+  padding: 10px 0 5px 0;
+  color: #fff;
+  font: 2.3vw "Oswald", sans-serif
+}
+.footer-list-anchor {
+  font: 1.3em "Open Sans", sans-serif
+}
+.footer-social-section {
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  margin-top: 5px;
+}
+.footer-social-section::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 10px;
+  border-top: 1px solid $primary-line-color;
+  width: calc(100% - 20px)
+}
+.footer-social-overlap {
+  position: relative;
+  z-index: 2;
+  background: rgb(55,55,55);
+  padding: 0 20px
+}
+.footer-social-connect {
+  display: flex;
+  align-items: center;
+  font: 3.5em "Oswald", sans-serif;
+  color: #fff
+}
+.footer-social-small {
+  font-size: 0.6em;
+  padding: 0px 20px
+}
+.footer-social-overlap > a {
+  font-size: 3em
+}
+.footer-social-overlap > a:not(:first-child) {
+  margin-left: 0.38em
+}
+.footer-bottom-section {
+  width: 100%;
+  padding: 10px;
+  border-top: 1px solid $primary-line-color;
+  margin-top: 10px
+}
+.footer-bottom-section > div:first-child {
+  margin-right: auto
+}
+.footer-bottom-wrapper {
+  font-size: 1.5em;
+  color: #fff
+}
+.footer-address {
+  display: inline;
+  font-style: normal
+}
+@media only screen and (max-width: 768px) {
+  .footer-list-header {
+    font-size: 2em
+  }
+  .footer-list-anchor {
+    font-size: 1.1em
+  }
+  .footer-social-connect {
+    font-size: 2.5em
+  }
+  .footer-social-overlap > a {
+    font-size: 2.24em
+  }
+  .footer-bottom-wrapper {
+    font-size: 1.3em
+  }
+}
+@media only screen and (max-width: 568px) {
+  main {
+    font-size: 5em
+  }
+  .footer-list-top {
+    width: 100%
+  }
+  .footer-list-header {
+    font-size: 3em;
+  }
+  .footer-list-anchor {
+    font-size: 1.5em
+  }
+  .footer-social-section {
+    justify-content: center
+  }
+  .footer-social-section::after {
+    top: 25%
+  }
+  .footer-social-connect {
+    margin-bottom: 10px;
+    padding: 0 10px
+  }
+  .footer-social-overlap {
+    display: flex;
+    justify-content: center;
+  }
+  .footer-social-icons-wrapper {
+    width: 100%;
+    padding: 0
+  }
+  .footer-social-overlap > a:not(:first-child) {
+    margin-left: 20px;
+  }
+  .footer-bottom-section {
+    padding: 0 5px 10px 5px
+  }
+  .footer-bottom-wrapper {
+    text-align: center;
+    width: 100%;
+    margin-top: 10px
+  }
+}
+@media only screen and (max-width: 480px) {
+  .footer-social-overlap > a {
+    margin: auto
+  }
+  .footer-social-overlap > a:not(:first-child) {
+    margin-left: 0;
+  }
+  .footer-bottom-rights {
+    display: block
+  }
+}
+@media only screen and (max-width: 320px) {
+  .footer-list-header {
+    font-size: 2.2em
+  }
+  .footer-list-anchor {
+    font-size: 1.2em
+  }
+  .footer-social-connect {
+    font-size: 2.4em
+  }
+  .footer-social-overlap > a {
+    font-size: 2.24em
+  }
+  .footer-bottom-wrapper {
+    font-size: 1.3em
+  }
+}
